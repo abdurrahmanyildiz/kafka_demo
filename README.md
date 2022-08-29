@@ -1,4 +1,4 @@
-# kafka demo
+# Kafka Demo
 This is the works that I have done for Apache Kafka.
 
 The repository includes the only <b>spring boot part</b> for the kafka implementation. 
@@ -14,4 +14,14 @@ Then navigate to <a href="https://kafka.apache.org/quickstart" target="_blank" >
 Please dont forget and consider that I am working on <b>Windows</b> machine. 
 
 For this useful youtube video:  <a href="https://www.youtube.com/watch?v=SqVfCyfCJqw" target="_blank">Amigoscode Youtube Channel</a>
+
+# To Run
+First go to the kafka folder and run zookeeper server start batch file with the properties and then run the kafka server start batch file with the properties file.
+
+{your_kafka_folder_path}\bin\windows\zookeeper-server-start.bat {your_kafka_folder_path}\config\zookeeper.properties
+
+{your_kafka_folder_path}\bin\windows\kafka-server-start.bat {your_kafka_folder_path}\config\server.properties
+
+If you see kafka server is now available on bla bla and port in logs you can now run the spring boot side.
+
 
