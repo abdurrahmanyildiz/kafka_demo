@@ -16,7 +16,7 @@ Please dont forget and consider that I am working on <b>Windows</b> machine.
 For this useful youtube video:  <a href="https://www.youtube.com/watch?v=SqVfCyfCJqw" target="_blank">Amigoscode Youtube Channel</a>
 
 # To Run
-First go to the kafka folder and run zookeeper server start batch file with the properties and then run the kafka server start batch file with the properties file.
+First open command prompt and go to the kafka folder and run zookeeper server start batch file with the properties and then run the kafka server start batch file with the properties file.
 
 {your_kafka_folder_path}\bin\windows\zookeeper-server-start.bat {your_kafka_folder_path}\config\zookeeper.properties
 
